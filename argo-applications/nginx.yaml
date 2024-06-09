@@ -11,6 +11,6 @@ spec:
   source:
     path: nginx
     repoURL: https://github.com/nishantguptaxe/nginx-service-configs.git
-    targetRevision: stage
+    targetRevision: main
   syncPolicy:
     automated: {}
