@@ -2,9 +2,3 @@ namespace:
   name: amit-stage-nginx-namespace
 serviceAccount:
   name: amit-stage-nginx-sa
-configMap:
-  name: pre-sync-config
-  data:
-    script: |
-      #!/bin/sh
-      echo "Running PreSync Job with ConfigMap"

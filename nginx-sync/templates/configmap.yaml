@@ -6,5 +6,4 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 data:
-  script: |
-{{ .Values.configMap.data.script | indent 4 }}
+  key1: value1
