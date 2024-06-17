@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: microservice-deployment
-  namespace: amit- devmicroservices
+  namespace: amit-devmicroservices
 spec:
   replicas: 3
   selector:
