@@ -14,5 +14,6 @@ spec:
     helm:
       valueFiles:
         - Values.yaml
+        - override-values.yaml 
   syncPolicy:
     automated: {}
