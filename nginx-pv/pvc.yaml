@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: pvc-claim-2
-  namespace: stage-nginx-namespace
+  namespace: stage1-nginx-namespace
 spec:
   storageClassName: manual
   accessModes:
